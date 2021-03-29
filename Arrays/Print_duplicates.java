@@ -1,29 +1,78 @@
-
-import java.util.Arrays;
-
-public class Find_duplicate
+class RepeatElement
 {
-    public static void main (String[] args)
-    {
-        int arr [] = new int[]{1,2,3,4,5,-6,5,4,7,-6,1};
-        System.out.println("The array we have is : "+Arrays.toString(arr));
-        System.out.print("The duplicate elements in the above array is : ");
-        for(int i=0; i< arr.length;i++)
-        {
-            int j= Math.abs(arr[i]); //making every element positive from the above array
-            if(arr[j]>=0) 
-            {
-                arr[j]=-arr[j];//then again making them negative
-                
-            }
-            else
-            {
-                 System.out.print(j+" ");
-            }
-           
-                
-            
-        }
-    }
-    
+	void printRepeating(int arr[], int size)
+	{
+		int i;
+		System.out.println("The repeating elements are : ");
+	
+		for(i = 0; i < size; i++)
+		{
+			if(arr[Math.abs(arr[i])] > 0)
+				arr[Math.abs(arr[i])] = -arr[Math.abs(arr[i])];
+			else
+				System.out.print(Math.abs(arr[i]) + " ");
+		}		
+	}
+
+	/* Driver program to test the above function */
+	public static void main(String[] args)
+	{
+		RepeatElement repeat = new RepeatElement();
+		int arr[] = {4, 2, 4, 5, 2, 3, 1};
+		int arr_size = arr.length;
+		repeat.printRepeating(arr, arr_size);
+	}
 }
+
+/* class RepeatElement
+{
+	void printRepeating(int arr[], int size)
+	{
+		int count[] = new int[size];
+		int i;
+
+		System.out.println("Repeated elements are : ");
+		for (i = 0; i < size; i++)
+		{
+			if (count[arr[i]] == 1)
+				System.out.print(arr[i] + " ");
+			else
+				count[arr[i]]++;
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		RepeatElement repeat = new RepeatElement();
+		int arr[] = {4, 2, 4, 5, 2, 3, 1};
+		int arr_size = arr.length;
+		repeat.printRepeating(arr, arr_size);
+	}
+}
+ */
+ 
+ /* class RepeatElement
+{
+	void printRepeating(int arr[], int size)
+	{
+		int i, j;
+		System.out.println("Repeated Elements are :");
+		for (i = 0; i < size; i++)
+		{
+			for (j = i + 1; j < size; j++)
+			{
+				if (arr[i] == arr[j])
+					System.out.print(arr[i] + " ");
+			}
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		RepeatElement repeat = new RepeatElement();
+		int arr[] = {4, 2, 4, 5, 2, 3, 1};
+		int arr_size = arr.length;
+		repeat.printRepeating(arr, arr_size);
+	}
+}
+ */
