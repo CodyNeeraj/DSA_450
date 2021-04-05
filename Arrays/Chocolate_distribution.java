@@ -1,7 +1,7 @@
 // JAVA Code For Chocolate Distribution Problem
 import java.util.*;
 
-public class GFG {
+public class distribution {
 	
 	// arr[0..n-1] represents sizes of packets. m is number of students. Returns minimum difference between maximum and minimum values of distribution.
 	static int findMinDiff(int arr[], int n, int m)
@@ -43,4 +43,4 @@ public class GFG {
 	    
 	}
 }
-// This code is contributed by Arnav Kr. Mandal.
+

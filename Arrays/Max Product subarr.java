@@ -1,7 +1,7 @@
 // Java program to find maximum product subarray
 import java.io.*;
 
-class GFG {
+class prod_subArary {
 	/* Returns the product of max product subarray.*/
 	static int maxSubarrayProduct(int arr[])
 	{

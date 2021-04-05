@@ -1,7 +1,7 @@
 // Java program to find number of operations
 // to make an array palindrome
 
-class GFG
+class palindrome
 {
 	// Returns minimum number of count operations
 	// required to make arr[] palindrome

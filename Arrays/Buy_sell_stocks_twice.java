@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class GFG {
+class StocksTwice {
 	public static void main(String[] args)
 	{
 		int price[] = { 2, 30, 15, 10, 8, 25, 80 };

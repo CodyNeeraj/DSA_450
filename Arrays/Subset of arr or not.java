@@ -1,7 +1,7 @@
 // Java program to find whether an array
 // is subset of another array
 
-class GFG {
+class Subset {
 
 	/* Return true if arr2[] is a subset 
 	of arr1[] */
@@ -42,7 +42,7 @@ class GFG {
 /* Another approach
 // Java code to find whether an array is subset of another array
 import java.util.HashSet;
-class GFG 
+class Subset 
 {
 	// Return true if arr2[] is a subset of arr1[] 
 	static boolean isSubset(int arr1[],int arr2[], int m, int n)
@@ -81,14 +81,14 @@ class GFG
 			System.out.println("arr2 is not a subset of arr1");
 	}
 }
-// This code is contributed by Kamal Rawal
+
  */
 
 /*Another approach using Hashset
 import java.io.*;
 import java.util.*;
 
-class GFG
+class subset
 {
 	public static void main (String[] args) 
 	{
@@ -120,6 +120,5 @@ class GFG
 	}
 }
 
-// This code is contributed by avanitrachhadiya2155
 
 */

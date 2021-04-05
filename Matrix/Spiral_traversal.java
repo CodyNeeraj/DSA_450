@@ -1,6 +1,6 @@
 // Java program to print a given matrix in spiral form
 import java.io.*;
-public class GFG {
+public class spiral {
 	// Function print matrix in spiral form
 	static void spiralPrint(int endRow, int endCol, int a[][])
 	{

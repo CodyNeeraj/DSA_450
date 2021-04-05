@@ -1,7 +1,7 @@
 /* // Implementation with two pointer algo
 import java.io.*;
 
-class GFG 
+class swap 
 {
 	public static void RearrangePosNeg(int arr[])
 	{
@@ -47,7 +47,7 @@ class GFG
 // and negative numbers in a array
 import java.io.*;
 
-class GFG {
+class swap {
 	// A utility function to print
 	// an array of size n
 	static void printArray(int arr[], int n)

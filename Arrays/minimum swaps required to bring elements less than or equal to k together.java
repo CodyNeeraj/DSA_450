@@ -4,7 +4,7 @@
 // to k together
 import java.lang.*;
 
-class GFG {
+class minimum_swaps {
 	
 // Utility function to find minimum swaps
 // required to club all elements less than

@@ -1,6 +1,6 @@
 import java.io.*;
 
-class GFG
+class partitioning
 {
 	
 	// Partitions arr[0..n-1] around [lowVal..highVal]
